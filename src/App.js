@@ -1,15 +1,14 @@
 import './App.css';
-import Navbar from './Compoments/Navbar';
+import Navbar from './Compoments/Navbar/Navbar.js';
+import Footer from "./Compoments/Footer/Footer.js"
 
 function App() {
   return (
-    <div className='backGround'>
-    <div>
-      <Navbar />
-    </div>
-    <div>
-
-    </div>
+    <div className="page-container">
+      <div className="content-warp">
+        <Navbar />
+      </div>
+      <Footer />
     </div>
   );
 }
