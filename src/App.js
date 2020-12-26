@@ -13,7 +13,11 @@ function App() {
         <section className="home-section">
         <div className="content">
           <div className="home-content">
-            <p>WELCOME</p>
+            <div className="home-banner">
+            </div>
+            <div className="welcom">
+                Welcome
+            </div>
             <Content/>
           </div>
         </div>

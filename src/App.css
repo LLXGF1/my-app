@@ -49,3 +49,29 @@
   min-height: 722.4px;
   position: relative;
 }
+
+.home-banner{
+  content: "";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 1px;
+    height: 40px;
+    background-color: rgb(170, 135, 104);
+    margin-top: 10px;
+}
+
+.welcom{
+  font-family: Hurme;
+    font-size: calc(10px + 2 * ((100vw - 320px) / 1600));
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 12px;
+    color: rgb(170, 135, 104);
+    margin-top: 50px;
+}
