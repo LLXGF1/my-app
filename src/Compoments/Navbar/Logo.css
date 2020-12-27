@@ -1,0 +1,24 @@
+.logo-size{
+    width: 130px;
+    height: 36px;
+  }
+
+.logo-location{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo-images{
+    width: 100%;
+    height: 300px;
+    transition: all 300ms ease 0s;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url(https://www.logo.wine/a/logo/Microsoft_Edge/Microsoft_Edge-Logo.wine.svg);
+}

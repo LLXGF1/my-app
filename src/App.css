@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: cornflowerblue;
 }
 
 .content-warp{
@@ -13,7 +14,6 @@
 }
 
 .blog{
-
   position: relative;
 }
 
@@ -59,7 +59,6 @@
     width: 1px;
     height: 40px;
     background-color: rgb(170, 135, 104);
-    margin-top: 10px;
 }
 
 .welcom{
@@ -73,5 +72,30 @@
     position: relative;
     padding-top: 12px;
     color: rgb(170, 135, 104);
-    margin-top: 50px;
+    margin-top: 200px;
+}
+
+.navbar-container{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 15;
+}
+
+.navbar-container{
+  position: relative;
+  width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-box{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(80px + 40 * ((100vw - 320px) / 1280));
 }
