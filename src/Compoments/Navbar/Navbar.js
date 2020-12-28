@@ -24,6 +24,11 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
+                <div>
+                    <button type="button" aria-label="menu" >
+                        Menu
+                    </button>
+                </div>
             </div>
         </nav>
     );

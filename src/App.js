@@ -4,43 +4,47 @@ import Navbar2 from "./Compoments/Navbar/Navbar2";
 import Footer from "./Compoments/Footer/Footer.js"
 import Content from "./Compoments/Content/Content.js"
 import Logo from "./Compoments/Navbar/Logo.js"
+import Menu from "./Compoments/Navbar/Menu.js"
 
 function App() {
   return (
     <div className="page-container">
       <div className="navbar-header">
-        <Navbar/>
+        <Navbar />
+        <div className="menu-open" open>
+          <Menu />
+        </div>
       </div>
       <div className="content-warp">
         <section className="home-section">
-        <div className="content">
-          <div className="home-content">
-            <div className="home-banner">
-            </div>
-            <div className="welcom">
+          <div className="content">
+            <div className="home-content">
+              <div className="home-banner">
+              </div>
+              <div className="welcom">
                 Welcome
             </div>
-            <Content/>
+              <Content />
+            </div>
           </div>
-        </div>
         </section>
         <div>
-          <Content/>
+          <Content />
         </div>
         <div>
-          <Content/>
+          <Content />
         </div>
         <div>
-          <Content/>
+          <Content />
         </div>
         <div>
-          <Content/>
+          <Content />
         </div>
         <div>
-          <Content/>
+          <Content />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

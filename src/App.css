@@ -115,3 +115,16 @@
   width: 100%;
   height: calc(80px + 40 * ((100vw - 320px) / 1280));
 }
+
+.menu-open{
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  transition: all 300ms ease 0s;
+  transform: translateX(0px);
+  z-index: 15;
+}
