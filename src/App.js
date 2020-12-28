@@ -8,13 +8,8 @@ import Logo from "./Compoments/Navbar/Logo.js"
 function App() {
   return (
     <div className="page-container">
-      <div className="navbar-container">
-        <div className ="navbar-container">
-          <div className="navbar-box">
-            <Logo />
-            <Navbar2/>
-          </div>
-        </div>
+      <div className="navbar-header">
+        <Navbar/>
       </div>
       <div className="content-warp">
         <section className="home-section">

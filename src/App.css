@@ -63,24 +63,40 @@
 
 .welcom{
   font-family: Hurme;
-    font-size: calc(10px + 2 * ((100vw - 320px) / 1600));
-    font-weight: 600;
-    line-height: 2;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    padding-top: 12px;
-    color: rgb(170, 135, 104);
-    margin-top: 200px;
+  font-size: calc(10px + 2 * ((100vw - 320px) / 1600));
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 12px;
+  color: rgb(170, 135, 104);
+  margin-top: 200px;
 }
 
-.navbar-container{
+.navbar-header{
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 15;
+}
+
+.navbar-container{
+  width: calc(100% - 180px);
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.navbar-container{
+  width: calc(100% - 240px);
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.navbar-container{
+  width: 1156px;
 }
 
 .navbar-container{
@@ -92,10 +108,10 @@
 
 .navbar-box{
   display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 100%;
-    height: calc(80px + 40 * ((100vw - 320px) / 1280));
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(80px + 40 * ((100vw - 320px) / 1280));
 }
