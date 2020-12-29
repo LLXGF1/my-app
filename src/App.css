@@ -43,11 +43,21 @@
   margin-bottom: 0px;
 }
 
-.home-section{
+.section{
   display: block;
   margin-bottom: -3px;
   min-height: 600px;
   position: relative;
+}
+
+.section2{
+  display: block;
+  margin-bottom: -3px;
+  min-height: 600px;
+  color: whitesmoke;
+  position: relative;
+  background-color: #212529;
+  margin-left: 30%;
 }
 
 .home-banner{
@@ -73,6 +83,7 @@
   padding-top: 12px;
   color: rgb(170, 135, 104);
   margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .navbar-header{
@@ -127,4 +138,23 @@
   transition: all 300ms ease 0s;
   transform: translateX(0px);
   z-index: 15;
+}
+
+.home-scroll-container{
+  position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, 0px);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: calc(58px + 60 * ((100vw - 320px) / 1600));
+}
+
+.content-margin{
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
 }

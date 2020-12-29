@@ -1,10 +1,12 @@
 import './App.css';
 import Navbar from './Compoments/Navbar/Navbar.js';
 import Navbar2 from "./Compoments/Navbar/Navbar2";
-import Footer from "./Compoments/Footer/Footer.js"
-import Content from "./Compoments/Content/Content.js"
-import Logo from "./Compoments/Navbar/Logo.js"
-import Menu from "./Compoments/Navbar/Menu.js"
+import Footer from "./Compoments/Footer/Footer.js";
+import Logo from "./Compoments/Navbar/Logo.js";
+import Menu from "./Compoments/Navbar/Menu.js";
+import Content from "./Compoments/Content/Content.js";
+import Home from "./Compoments/Content/Home.js";
+import Content3 from "./Compoments/Content/Content3.js";
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
         <Navbar />
       </div>
       <div className="content-warp">
-        <section className="home-section">
+        {/* Home-section */}
+        <section className="section">
           <div className="content">
             <div className="home-content">
               <div className="home-banner">
@@ -21,24 +24,31 @@ function App() {
               <div className="welcom">
                 Welcome
             </div>
-              <Content />
+              <Home />
             </div>
           </div>
+          {/* <div className="home-scroll-container">
+          </div> */}
         </section>
         <div>
-          <Content />
-        </div>
-        <div>
-          <Content />
-        </div>
-        <div>
-          <Content />
-        </div>
-        <div>
-          <Content />
-        </div>
-        <div>
-          <Content />
+          {/* section1 */}
+          <section className="section">
+            <div>
+              <Content />
+            </div>
+          </section>
+          {/* section2 */}
+          <section className="section2">
+            <div className="content-margin">
+              <Content3 />
+            </div>
+          </section>
+          {/* section3 */}
+          <section className="section">
+            <div>
+              <Content />
+            </div>
+          </section>
         </div>
       </div>
       <Footer />
