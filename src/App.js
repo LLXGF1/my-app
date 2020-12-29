@@ -11,9 +11,6 @@ function App() {
     <div className="page-container">
       <div className="navbar-header">
         <Navbar />
-        <div className="menu-open" open>
-          <Menu />
-        </div>
       </div>
       <div className="content-warp">
         <section className="home-section">

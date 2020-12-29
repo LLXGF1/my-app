@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: cornflowerblue;
+  background-color: whitesmoke;
 }
 
 .content-warp{
@@ -24,7 +24,7 @@
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(235, 195, 64);
+  background-color: darkslategrey;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -46,7 +46,7 @@
 .home-section{
   display: block;
   margin-bottom: -3px;
-  min-height: 722.4px;
+  min-height: 600px;
   position: relative;
 }
 
