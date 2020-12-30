@@ -43,7 +43,7 @@
   margin-bottom: 0px;
 }
 
-.section{
+.section1{
   display: block;
   margin-bottom: -3px;
   min-height: 600px;
@@ -52,12 +52,27 @@
 
 .section2{
   display: block;
-  margin-bottom: -3px;
-  min-height: 600px;
-  color: whitesmoke;
   position: relative;
-  background-color: #212529;
-  margin-left: 30%;
+  background-color: rgb(28, 28, 28);
+  min-height: 1000px;
+}
+
+.section3{
+  display: block;
+  position: relative;
+  margin-top: calc(-200px + -272 * ((100vw - 320px) / 1600));
+  z-index: 3;
+  overflow: hidden;
+
+}
+
+.section3-blog{
+  max-width: 90%;
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  background-color: rgb(12, 12, 12);
+  padding: 100px;
 }
 
 .home-banner{
@@ -151,10 +166,4 @@
     -webkit-box-pack: center;
     justify-content: center;
     margin-top: calc(58px + 60 * ((100vw - 320px) / 1600));
-}
-
-.content-margin{
-  padding-top: 100px;
-  padding-right: 100px;
-  padding-left: 100px;
 }
