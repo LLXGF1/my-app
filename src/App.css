@@ -54,7 +54,7 @@
   display: block;
   position: relative;
   background-color: rgb(28, 28, 28);
-  min-height: 1000px;
+  min-height: 1300px;
 }
 
 .section3{
@@ -63,7 +63,7 @@
   margin-top: calc(-200px + -272 * ((100vw - 320px) / 1600));
   z-index: 3;
   overflow: hidden;
-
+  margin-left: 400px;
 }
 
 .section3-blog{
